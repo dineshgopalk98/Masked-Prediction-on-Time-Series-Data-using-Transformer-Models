@@ -1,9 +1,24 @@
-# Thesis-work
-Thesis Title - Masked Prediction on time series data using Transformer based models
+## Masked Prediction on Time Series Data using Transformer Models
 
-Our thesis was to predict missing values of signals received from trucks' battery modules. The objective of this project is to create a model that performs a masked prediction of time series data. After the insights obtained from the literature review and EDA on the signals received from the trucks, it was decided to build a transformer-based model for predicting the significant features. The initial goal for the thesis project is to predict missing values for only one feature and obtain very high accuracy on that. The scope of the thesis in the future would involve modifying the model to predict all the significant features of the dataset. In addition, it will forecast the features, whose duration will be decided in the future.
+### Introduction
 
-Methodology followed to approach the problem in hand:
+The project addresses the challenge of imputing missing data in time series datasets efficiently. Traditional methods, such as auto-regressive approaches, are often constrained by computational costs and time limitations. This project focuses on designing a neural network model, specifically a Time Series Transformer (TST), for masked prediction in time series data.
+
+### Project Goals
+
+1. **Understanding Data Source:** Thoroughly study the data source to grasp the meaning and significance of the data. Utilize various data visualization methods for in-depth analysis, gaining insights into the importance of each dataset.
+
+2. **Selection of Evaluation Metrics:** Identify and justify appropriate evaluation metrics to assess the reliability and performance of the TST model. This decision is crucial and will be made as part of the pre-study.
+
+3. **Data Pre-processing:** Prepare the data for modeling by applying various pre-processing techniques. The goal is to maintain data properties while extracting valuable information through visual representations.
+
+4. **Neural Network Model Creation:** Develop a robust neural network model, TST, tailored to the project's objectives. This selection is informed by a thorough literature study conducted during the project's initial phases.
+
+5. **Visualization and Evaluation:** Present the predicted data in a 2-dimensional view, allowing for easy comparison of correlations between different features in both original and predicted data. Assess the quality of predicted data using chosen evaluation metrics, ensuring alignment with the project's proposed objectives.
+
+### Project Overview
+
+This project involves the creation of a machine learning model that predicts missing values in time series data. By leveraging a specialized Transformer model, the Time Series Transformer, the aim is to enhance the quality of collected data and subsequently improve vehicle performance. The README provides a concise overview, emphasizing the significance of understanding the data, selecting appropriate metrics, pre-processing, model creation, and the ultimate goal of visualizing and evaluating predicted data.
 
 ## Methodology Overview
 
