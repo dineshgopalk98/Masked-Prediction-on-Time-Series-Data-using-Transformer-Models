@@ -55,8 +55,7 @@ Used methods such as Prediction vs Original plots, PCA, and Boxplots to visualiz
 #### 3.6.2 Quantitative Metrics
 Implemented metrics like Mean Absolute Error (MAE) and Root Mean Square Error (RMSE) to quantitatively evaluate model accuracy.
 
----
 
-This README provides an overview of the methodology adopted, detailing the techniques from data visualization to model evaluation. For a more comprehensive understanding, refer to the complete methodology section.
+-------
 
 Paper referred -  [A Transformer-based Framework for Multivariate Time Series Representation Learning](https://arxiv.org/abs/2010.02803)
